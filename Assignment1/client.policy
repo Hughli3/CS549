@@ -1,7 +1,7 @@
-grant codeBase "file:/Users/hughli/-" {
+grant codeBase "file:/home/ec2-user/-" {
     permission java.security.AllPermission;
 };
 
-grant codeBase "file:/Users/hughli/tmp/cs549/ftp-test/ftp.jar/-" {
+grant codeBase "http://ec2-3-129-18-244.us-east-2.compute.amazonaws.com/~ec2-user/ftp.jar/-" {
     permission java.security.AllPermission;
 };

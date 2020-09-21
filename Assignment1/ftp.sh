@@ -1,6 +1,6 @@
 #!/bin/bash
-export JARFILE=/Users/hughli/tmp/cs549/ftp-test/ftp.jar
-export POLICY=/Users/hughli/tmp/cs549/ftp-test/client.policy
+export JARFILE=/home/ec2-user/tmp/cs549/ftp-test/ftp.jar
+export POLICY=/home/ec2-user/tmp/cs549/ftp-test/client.policy
 
 if [ ! -e $JARFILE ] ; then
 	echo "Missing jar file: $JARFILE"
@@ -9,7 +9,7 @@ if [ ! -e $JARFILE ] ; then
 fi
 
 if [ ! -e $POLICY ] ; then
-	pushd /Users/hughli/tmp/cs549/ftp-test
+	pushd /home/ec2-user/tmp/cs549/ftp-test
 	jar xf "$JARFILE" client.policy
 	popd
 fi
