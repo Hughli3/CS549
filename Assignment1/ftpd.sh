@@ -1,8 +1,8 @@
 #!/bin/bash
 export JARFILE=/home/ec2-user/tmp/cs549/ftp-test/ftpd.jar
 export POLICY=/home/ec2-user/tmp/cs549/ftp-test/server.policy
-export CODEBASE=http://ec2-3-129-18-244.us-east-2.compute.amazonaws.com/~ec2-user/ftpd.jar
-export SERVERHOST=ec2-3-129-18-244.us-east-2.compute.amazonaws.com
+export CODEBASE=http://ec2-3-84-145-255.compute-1.amazonaws.com/~ec2-user/ftpd.jar
+export SERVERHOST=ec2-3-84-145-255.compute-1.amazonaws.com
 
 if [ ! -e $JARFILE ] ; then
 	echo "Missing jar file: $JARFILE"
